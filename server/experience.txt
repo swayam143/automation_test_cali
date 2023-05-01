@@ -1,0 +1,85 @@
+Manual Testing ==> Manual testing mainly involves the phyysical execution of test cases againt various applications for detect bugs and errors 
+simply sari testing hume khud se karni hoti h 
+
+limitations of manual testing==>
+# extremely time consuming
+# high risk of error
+# requires a tester all the time
+# limited scope
+
+////////////////////////////////////////////////
+
+Birth of Selenium(automation testing)==>
+
+Jason Huggins, an engineer at THOUGHWORKS, chicago found the repitious work of manual testing strenous and monotonous
+He developed a Javascript program to utomate the testing of a web application
+The program was called JAVASCRIPT TEST RUNNER
+Initally the new invention was deployed by the inmates at THOUGHWORKS. 
+However in 2004, it was rendred as SELENIUM ans was made open source
+
+Advantage of SELENIUM
+# speed of execution
+# accurte results
+# lesser investement in human resource
+# time and cost effective
+# early time to market
+# supports re-testing
+
+SELENIUM consists of set of software tools that facilitate testing
+
+
+////////////////////////////////////////////////
+
+SELENIUM suite of tools
+
+1.Selenium IDE
+2.Selenium RC (depreacted)
+3.Selenium WebDriver 
+4.Selenium Grid 
+
+
+////////////////////////////////////////////////
+
+1.Selnium IDE 
+
+firefox add-on that helps create tests
+Records user interaction on the browser and exports them as a reusable script
+generally used as a prototyping tool
+install Selenium IDE from chrom extension
+simple hum website (URL dalkar) open karke record kardenge then play karenge so automatic tesing hojayegi
+
+Limitation==>
+
+# cannot exports to webdriver scripts youtube
+# cannot perform databse testing
+# cannnot provide detailed test report
+
+////////////////////////////////////////////////
+
+2. Selenium  rc ==> Selenium RC cutoff in September 2021, Selenium RC (Remote Control) is an older, deprecated technology. It has been replaced by Selenium WebDriver, which is a more modern and powerful tool for browser automation.
+
+
+////////////////////////////////////////////////
+
+
+3. Selenium webdrivers==>
+
+It is a cross platform (can run on any os) testing framework
+It is not an Ide. It is programming interface to create and run test cases 
+Supports Jva,C##,PHP,Python,Perl<RUby etc.
+Supports frameworks like testing,junit,nunit
+
+
+Limitation ==>
+# Cannot test mobile Applications, Requires framework like Appium
+# Can only perform sequential testing hece requires Grid fro parallel testing
+# limites reporting. Third party tools like testNg are required
+# Limited image testing
+
+//////////////////////////////////////////////// 
+
+
+to run selenium 
+ 
+ npm init -y
+ than npm i selenium-webdriver chromedriver geckodriver
